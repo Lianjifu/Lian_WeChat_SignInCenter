@@ -19,10 +19,10 @@ if env == 'prod':
     ser_debug = False
     # MYSQL
     pps_db = ""
-    db_host = "rm-bp1woxm70a39b9lixo.mysql.rds.aliyuncs.com"
+    db_host = ""
     db_usr = ""
     db_pw = ""
-    db_port = 3306
+    db_port = 
     db_charset = "utf8"
 
 # 开发配置
@@ -31,10 +31,10 @@ elif env == 'dev':
     base_url = "http://" + host + ":" + ser_port + "/"
     # MYSQL
     pps_db = "ywgsh_new_media"
-    db_host = "rm-bp1woxm70a39b9lixo.mysql.rds.aliyuncs.com"
-    db_usr = "ywgsh_nm_root"
-    db_pw = "Ywg20070821"
-    db_port = 3306
+    db_host = ""
+    db_usr = ""
+    db_pw = ""
+    db_port = 
     db_charset = "utf8"
 
 # 本地服务，远端测试库
@@ -42,11 +42,11 @@ elif env == 'local':
     host = "localhost"
     base_url = "http://" + host + ":" + ser_port + "/"
     # MYSQL
-    pps_db = 'ywgsh_wxsign_dev'
-    db_host = "localhost"
-    db_usr = "root"
-    db_pw = "mysql"
-    db_port = 3306
+    pps_db = ''
+    db_host = ""
+    db_usr = ""
+    db_pw = ""
+    db_port = 
     db_charset = "utf8"
 
 logging.info("Environment: " + env)
