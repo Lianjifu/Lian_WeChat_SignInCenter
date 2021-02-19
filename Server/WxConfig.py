@@ -5,13 +5,13 @@
 class WxCofing(object):
     """微信开发--基础配置"""
 
-    AppID = "wx3c0e5fb5b4b72a55"
-    AppSecret = "0e782f23162e5a9f4089026017bed232"
+    AppID = ""
+    AppSecret = ""
 
     # 微信网页开发域名
-    AppHost = "http://wx2.rfidtour.com"
+    AppHost = ""
 
-    redirect_uri = "http://wx2.rfidtour.com"
+    redirect_uri = ""
 
     code_url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid={}&redirect_uri={}&response_type=code&scope=snsapi_userinfo&state=STATE&connect_redirect=1#wechat_redirect".format(AppID,redirect_uri)
 
@@ -30,8 +30,8 @@ class WxCofing(object):
 
 
     # 人脸融合需要的配置参数
-    ai_qq_app_id = "2108333085"
+    ai_qq_app_id = "002108333085"
 
-    ai_qq_app_key = "p83Xxe9qcfUkYndF"
+    ai_qq_app_key = "--p83Xxe9qcfUkYndF-"
 
     face_merge_url = "https://api.ai.qq.com/fcgi-bin/ptu/ptu_facemerge"
